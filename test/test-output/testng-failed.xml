@@ -3,18 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testCases.TC001_Join_Free">
+      <class name="testCases.TC002_SignUp_FaceBook">
         <methods>
           <include name="beforeMethod"/>
+          <include name="join_Facebook"/>
           <include name="setData"/>
-          <include name="join_free" invocation-numbers="0 1"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="afterSuite"/>
           <include name="afterTest"/>
           <include name="beforeSuite"/>
         </methods>
-      </class> <!-- testCases.TC001_Join_Free -->
+      </class> <!-- testCases.TC002_SignUp_FaceBook -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

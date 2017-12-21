@@ -56,9 +56,14 @@ public class SignUpPage extends SeleniumMethods{
 		return new HomePage(driver, test);
 		}	
 
-
-	
-	
+	@FindBy(how=How.ID,using="close_and_go_fb")
+	private WebElement eleFacebookLink;
+	public LoginViaFacebook clickFacebookLink(){
+		click(eleFacebookLink);
+		switchToWindow(1);
+		driver.manage().window().maximize();
+		return new LoginViaFacebook(driver, test);
+	}
 	
 	
 }
