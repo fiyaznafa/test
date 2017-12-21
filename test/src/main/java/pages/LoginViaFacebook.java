@@ -17,7 +17,7 @@ public class LoginViaFacebook extends ProjectMethods{
 		this.driver=driver;
 		this.test=test;	
 		PageFactory.initElements(driver, this);
-		if(!verifyTitle("Join CashKaro Free - India's No1 Cashback & Coupons Site"))
+		if(!verifyTitle("Facebook"))
 			throw new RuntimeException();
 			}
 		
@@ -33,6 +33,15 @@ public class LoginViaFacebook extends ProjectMethods{
 		public LoginViaFacebook enterPassword(String pwd){
 			type(elePass, pwd);
 			return this;
+		}
+		
+		
+		@FindBy(how=How.ID,using="pass")
+		private WebElement eleLoginButton;
+		public SignUpPage clickLogin(){
+			click(eleLoginButton);
+			switchToWindow(0);
+			return new SignUpPage(driver, test);
 		}
 		
 		

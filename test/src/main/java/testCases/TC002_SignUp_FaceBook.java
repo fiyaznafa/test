@@ -10,8 +10,8 @@ public class TC002_SignUp_FaceBook extends ProjectMethods{
 
 	@BeforeClass
 	public void setData() {
-		dataSheetName = "TC002_Join_Facebook";
-		testCaseName = "TC001_Join_Facebook";
+		dataSheetName = "TC002_SignUp_FaceBook";
+		testCaseName = "TC002_SignUp_FaceBook";
 		testDescription = "To Test Joining functionality using Facebook";
 		category= "Smoke";
 		authors	="Fiyaz";
@@ -19,10 +19,12 @@ public class TC002_SignUp_FaceBook extends ProjectMethods{
 	}
 	
 	@Test(dataProvider="fetchData")
-	public void join_Facebook(String email){
+	public void join_Facebook(String email,String pwd){
 	new HomePage(driver, test)
 	.clickJoinFreeButton()
 	.clickFacebookLink()
-	.enterEmailId(email);
+	.enterEmailId(email)
+	.enterPassword(pwd)
+	.clickLogin();
 	}
 }
