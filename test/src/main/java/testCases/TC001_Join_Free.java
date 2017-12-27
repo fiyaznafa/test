@@ -4,7 +4,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import driverMethods.ProjectMethods;
 import pages.HomePage;
-import pages.SignUpPage;
 
 public class TC001_Join_Free extends ProjectMethods{
 	@BeforeClass
@@ -18,7 +17,7 @@ public class TC001_Join_Free extends ProjectMethods{
 	}
 	
 	@Test(dataProvider="fetchData")
-	public void join_free(String fname,String email,String pwd) throws InterruptedException {
+	public void join_free(String fname,String email,String pwd) {
 		
 		new HomePage(driver, test)
 		.clickJoinFreeButton()
@@ -26,9 +25,8 @@ public class TC001_Join_Free extends ProjectMethods{
 		.enterEmailID(email)
 		.enterConfEmail(email)
 		.enterPassword(pwd);
-		Thread.sleep(10000);
-		new SignUpPage(driver, test)
-		.clickJoinButton();
+		//new SignUpPage(driver, test)
+		//.clickJoinButton();
 		
 	}
 

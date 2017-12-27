@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27310" started-at="2017-12-26T12:16:26Z" finished-at="2017-12-26T12:16:53Z">
+  <suite name="Default suite" duration-ms="23329" started-at="2017-12-26T12:21:15Z" finished-at="2017-12-26T12:21:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27310" started-at="2017-12-26T12:16:26Z" finished-at="2017-12-26T12:16:53Z">
-      <class name="testCases.TC003_Sign_in">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.TC003_Sign_in@4fe3c938]" name="beforeSuite" is-config="true" duration-ms="371" started-at="2017-12-26T17:46:26Z" finished-at="2017-12-26T17:46:26Z">
+    <test name="Default test" duration-ms="23329" started-at="2017-12-26T12:21:15Z" finished-at="2017-12-26T12:21:38Z">
+      <class name="testCases.TC002_SignUp_FaceBook">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testCases.TC002_SignUp_FaceBook@4fe3c938]" name="beforeSuite" is-config="true" duration-ms="456" started-at="2017-12-26T17:51:14Z" finished-at="2017-12-26T17:51:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testCases.TC003_Sign_in@4fe3c938]" name="beforeTest" is-config="true" duration-ms="1" started-at="2017-12-26T17:46:26Z" finished-at="2017-12-26T17:46:26Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testCases.TC002_SignUp_FaceBook@4fe3c938]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-12-26T17:51:15Z" finished-at="2017-12-26T17:51:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:testCases.TC003_Sign_in@4fe3c938]" name="setData" is-config="true" duration-ms="1" started-at="2017-12-26T17:46:26Z" finished-at="2017-12-26T17:46:26Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:testCases.TC002_SignUp_FaceBook@4fe3c938]" name="setData" is-config="true" duration-ms="1" started-at="2017-12-26T17:51:15Z" finished-at="2017-12-26T17:51:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC003_Sign_in@4fe3c938]" name="beforeMethod" is-config="true" duration-ms="10332" started-at="2017-12-26T17:46:27Z" finished-at="2017-12-26T17:46:37Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testCases.TC002_SignUp_FaceBook@4fe3c938]" name="beforeMethod" is-config="true" duration-ms="11026" started-at="2017-12-26T17:51:15Z" finished-at="2017-12-26T17:51:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="SignIn(java.lang.String, java.lang.String)[pri:0, instance:testCases.TC003_Sign_in@4fe3c938]" name="SignIn" duration-ms="15442" started-at="2017-12-26T17:46:37Z" data-provider="fetchData" finished-at="2017-12-26T17:46:53Z">
+        <test-method status="PASS" signature="join_Facebook(java.lang.String, java.lang.String)[pri:0, instance:testCases.TC002_SignUp_FaceBook@4fe3c938]" name="join_Facebook" duration-ms="10684" started-at="2017-12-26T17:51:27Z" data-provider="fetchData" finished-at="2017-12-26T17:51:37Z">
           <params>
             <param index="0">
               <value>
@@ -38,20 +38,20 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SignIn -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC003_Sign_in@4fe3c938]" name="afterMethod" is-config="true" duration-ms="784" started-at="2017-12-26T17:46:53Z" finished-at="2017-12-26T17:46:53Z">
+        </test-method> <!-- join_Facebook -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testCases.TC002_SignUp_FaceBook@4fe3c938]" name="afterMethod" is-config="true" duration-ms="840" started-at="2017-12-26T17:51:37Z" finished-at="2017-12-26T17:51:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.TC003_Sign_in@4fe3c938]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-12-26T17:46:53Z" finished-at="2017-12-26T17:46:53Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testCases.TC002_SignUp_FaceBook@4fe3c938]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-12-26T17:51:38Z" finished-at="2017-12-26T17:51:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.TC003_Sign_in@4fe3c938]" name="afterSuite" is-config="true" duration-ms="463" started-at="2017-12-26T17:46:53Z" finished-at="2017-12-26T17:46:54Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testCases.TC002_SignUp_FaceBook@4fe3c938]" name="afterSuite" is-config="true" duration-ms="553" started-at="2017-12-26T17:51:38Z" finished-at="2017-12-26T17:51:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testCases.TC003_Sign_in -->
+      </class> <!-- testCases.TC002_SignUp_FaceBook -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
